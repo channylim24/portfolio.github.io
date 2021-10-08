@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <script
+      src="https://kit.fontawesome.com/2b1d7f4f93.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="nav" id="nav">
+      <a href="./index.html"><img src="./assets/Name.png" alt="Channy Lim" /></a>
+      <ul>
+        <li><a href="./index.html">HOME</a></li>
+        <span>&#124;</span>
+        <li><a href="./aboutMe.html">ABOUT ME</a></li>
+        <span>&#124;</span>
+        <li><a href="./myWorks.html">MY WORK</a></li>
+        <span>&#124;</span>
+        <li><a href="./contactMe.html">CONTACT ME</a></li>
+      </ul>
+      <a class="menu" onclick="showHideNavbarMenuFunction()">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </a>
+    </nav>
+    <!-- End Navbar -->
+    <section class="contactMePage">
+      <h2>Contact Me</h2>
+      <span> <mark>E-mail, Call, or Text to reach me</mark></span>
+      <img src="./assets/Name.png" alt="Channy Lim" />
+      <form action="">
+        <div class="form">
+          <div>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name (DISABLED)"
+              disabled
+            />
+            <br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email (DISABLED)"
+              disabled
+            />
+            <br />
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="Subject (DISABLED)"
+              disabled
+            />
+          </div>
+          <div>
+            <textarea
+              type="text"
+              id="message"
+              name="message"
+              placeholder="Message (DISABLED)"
+              cols="30"
+              rows="10"
+              disabled
+            ></textarea>
+            <input type="submit" value="Send" id="submit" disabled />
+          </div>
+        </div>
+      </form>
+      <h2>Other Contact</h2>
+      <p>
+        WhatsApp : +62 852 7254 5060 <br />
+        <br />
+        Telegram : +62 895 6147 18339 <br />
+        <br />
+        Skype : channylim24 <br />
+        <br />
+        Phone : +62 895 6147 18339 <br />
+        <br />
+        Email : channylim24@gmail.com
+      </p>
+      <span>
+        <i class="fab fa-telegram"></i>
+        <i class="fab fa-whatsapp-square"></i>
+        <i class="fas fa-envelope-square"></i>
+        <i class="fab fa-skype"></i
+      ></span>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="footer_container">
+        <div class="left">
+          <strong>Works</strong>
+          <hr />
+          <ul>
+            <li><img src="./assets/work1.jpg" /></li>
+            <li><img src="./assets/myworkcomingsoon.png" /></li>
+            <li><img src="./assets/myworkcomingsoon.png" /></li>
+            <li><a href="./myWorks.html">See More...</a></li>
+          </ul>
+        </div>
+        <div class="middle">
+          <strong>Navigation</strong>
+          <hr />
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./aboutMe.html">About Me</a></li>
+            <li><a href="./myWorks.html">My Work</a></li>
+            <li><a href="./contactMe.html">Contact Me</a></li>
+          </ul>
+        </div>
+        <div class="right">
+          <strong>Contacts</strong>
+          <hr />
+          <ul class="item3">
+            <li><i class="fab fa-telegram"></i> Telegram</li>
+            <li><a href="#">+62 895 6147 18339</a></li>
+            <li><i class="fab fa-whatsapp-square"></i> WhatsApp</li>
+            <li><a href="#">+62 852 7254 5060</a></li>
+            <li><i class="fas fa-envelope-square"></i> E-Mail</li>
+            <li><a href="#">channylim24@gmail.com</a></li>
+            <li><i class="fab fa-skype"></i> Skype</li>
+            <li><a href="#">channylim</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Channy Lim - Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/2b1d7f4f93.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="nav" id="nav">
+      <a href="./index.html"><img src="./assets/Name.png" alt="Channy Lim" /></a>
+      <ul>
+        <li><a href="./index.html">HOME</a></li>
+        <span>&#124;</span>
+        <li><a href="./aboutMe.html">ABOUT ME</a></li>
+        <span>&#124;</span>
+        <li><a href="./myWorks.html">MY WORK</a></li>
+        <span>&#124;</span>
+        <li><a href="./contactMe.html">CONTACT ME</a></li>
+      </ul>
+      <a class="menu" onclick="showHideNavbarMenuFunction()">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </a>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Section 1 -->
+    <section class="home">
+      <div>
+        <img src="./assets/animation.gif" alt="animasi-bergerak" />
+      </div>
+      <div>
+        <p>
+          <span>Hi there !</span> <br />
+          Thanks for coming here <br />
+          <span>Click the button below to check my work!</span>
+        </p>
+        <button onclick="window.location.href='./myWorks.html'">
+          See my work here
+        </button>
+      </div>
+    </section>
+    <!-- End Section 1 -->
+    <!-- Section 2 -->
+    <section class="aboutMe">
+      <div class="contentwrapper">
+        <img src="./assets/AboutMe.png" />
+        <div class="textwrapper">
+          <h2>About Me</h2>
+        </div>
+      </div>
+      <div class="contentformat">
+        <h3>Biography and My Story</h3>
+        <p>
+          <br />
+          Name : Channy Hodie Iubileaum Lim<br />
+          Age : 21 <br />
+          Marital Status : Single <br />
+          City : Batam<br />
+          Latest Education : Vocational School
+        </p>
+        <br />
+        <hr />
+        <br />
+        <p>
+          Hi! My name is Channy Lim. I've been learning web development since May and I found myself really enjoyed stuffs related to front end development which makes me want to learn many
+          <a href="./aboutMe.html">See more...</a>
+        </p>
+      </div>
+    </section>
+    <!-- End Section 2 -->
+    <!-- Section 3 -->
+    <section class="myWorks">
+      <h2>My Works</h2>
+      <ul class="slides">
+        <input type="radio" name="radio-btn" id="img-1" checked />
+        <li class="slide-container">
+          <div class="slide">
+            <img src="./assets/work1.jpg" />
+          </div>
+          <div class="nav">
+            <label for="img-6" class="prev">&#x2039;</label>
+            <label for="img-2" class="next">&#x203a;</label>
+          </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-2" />
+        <li class="slide-container">
+          <div class="slide">
+            <img src="./assets/myworkcomingsoon.png" />
+          </div>
+          <div class="nav">
+            <label for="img-1" class="prev">&#x2039;</label>
+            <label for="img-3" class="next">&#x203a;</label>
+          </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-3" />
+        <li class="slide-container">
+          <div class="slide">
+            <img src="./assets/myworkcomingsoon.png" />
+          </div>
+          <div class="nav">
+            <label for="img-2" class="prev">&#x2039;</label>
+            <label for="img-4" class="next">&#x203a;</label>
+          </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-4" />
+        <li class="slide-container">
+          <div class="slide">
+            <img src="./assets/myworkcomingsoon.png" />
+          </div>
+          <div class="nav">
+            <label for="img-3" class="prev">&#x2039;</label>
+            <label for="img-5" class="next">&#x203a;</label>
+          </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-5" />
+        <li class="slide-container">
+          <div class="slide">
+            <img src="./assets/myworkcomingsoon.png" />
+          </div>
+          <div class="nav">
+            <label for="img-4" class="prev">&#x2039;</label>
+            <label for="img-6" class="next">&#x203a;</label>
+          </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-6" />
+        <li class="slide-container">
+          <div class="slide">
+            <img src="./assets/myworkcomingsoon.png" />
+          </div>
+          <div class="nav">
+            <label for="img-5" class="prev">&#x2039;</label>
+            <label for="img-1" class="next">&#x203a;</label>
+          </div>
+        </li>
+
+        <li class="nav-dots">
+          <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+          <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+          <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+          <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+          <label for="img-5" class="nav-dot" id="img-dot-5"></label>
+          <label for="img-6" class="nav-dot" id="img-dot-6"></label>
+        </li>
+      </ul>
+    </section>
+    <section class="myContacts">
+      <div class="itemwrapper">
+        <div>
+          <h2>My Contacts</h2>
+          <p>
+            Thanks for visiting, if you’re interested in my portfolio you might
+            find me in the contacts below
+            <a href="./contactMe.html">See more... </a>
+          </p>
+          <div class="contentwrapper">
+            <div>
+              <i class="fab fa-telegram"></i>Telegram
+              <br />
+              <span>+62 895 6147 18339</span>
+              <br />
+              <i class="fab fa-whatsapp-square"></i> WhatsApp
+              <br />
+              <span>+62 852 7254 5060</span>
+            </div>
+            <div>
+              <i class="fas fa-envelope-square"></i> E-Mail
+              <br />
+              <span>channylim24@gmail.com</span>
+              <br />
+              <i class="fab fa-skype"></i> Skype
+              <br />
+              <span>channylim24</span>
+            </div>
+          </div>
+        </div>
+        <figure>
+          <img src="./assets/animation2.gif" />
+        </figure>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="footer_container">
+        <div class="left">
+          <strong>Works</strong>
+          <hr />
+          <ul>
+            <li><img src="./assets/work1.jpg" /></li>
+            <li><img src="./assets/myworkcomingsoon.png" /></li>
+            <li><img src="./assets/myworkcomingsoon.png" /></li>
+            <li><a href="./myWorks.html">See More...</a></li>
+          </ul>
+        </div>
+        <div class="middle">
+          <strong>Navigation</strong>
+          <hr />
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./aboutMe.html">About Me</a></li>
+            <li><a href="./myWorks.html">My Work</a></li>
+            <li><a href="./contactMe.html">Contact Me</a></li>
+          </ul>
+        </div>
+        <div class="right">
+          <strong>Contacts</strong>
+          <hr />
+          <ul class="item3">
+            <li><i class="fab fa-telegram"></i> Telegram</li>
+            <li><a href="#">+62 895 6147 18339</a></li>
+            <li><i class="fab fa-whatsapp-square"></i> WhatsApp</li>
+            <li><a href="#">+62 852 7254 5060</a></li>
+            <li><i class="fas fa-envelope-square"></i> E-Mail</li>
+            <li><a href="#">channylim24@gmail.com</a></li>
+            <li><i class="fab fa-skype"></i> Skype</li>
+            <li><a href="#">channylim</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="./script.js"></script>
+  </body>
+</html>
